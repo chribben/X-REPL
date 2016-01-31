@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0-*",
+  "description": "ScriptSharp.ScriptEngine Class Library",
+  "authors": [
+    "Class Library template"
+  ],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "tooling": {
+    "defaultNamespace": "ScriptSharp.ScriptEngine"
+  },
+  "frameworks": {
+    "net451": {},
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  },
+  "dependencies": {
+    "Microsoft.CodeAnalysis.CSharp.Scripting": "1.2.0-beta1-20160130-02"
+  }
+}
