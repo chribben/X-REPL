@@ -1,0 +1,8 @@
+{
+  "frameworks": {
+    "dnxcore50": {}
+  },
+  "dependencies": {
+    "Microsoft.CodeAnalysis.CSharp.Scripting": "1.1.1"
+  }
+}

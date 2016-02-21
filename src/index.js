@@ -1,8 +1,8 @@
 var edge = require('edge-atom-shell')
-var toScriptEngine = require('edge-atom-shell').func({
-    assemblyFile: 'ScriptSharp.ScriptEngine.dll',
-    typeName: 'ScriptSharp.ScriptEngine.CSharpScriptEngine',
-    methodName: 'Execute' // Func<object,Task<object>>
+var toScriptEngine = edge.func({
+    assemblyFile: 'ScriptEngine.dll',
+    typeName: 'ScriptEngine',
+    methodName: 'Execute' // This must be Func<object,Task<object>>
 });
 
 var ta = document.getElementById('ta');
