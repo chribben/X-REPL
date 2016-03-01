@@ -1,4 +1,4 @@
-var edge = require('edge-atom-shell')
+var edge = require('edge')
 var toScriptEngine = edge.func({
     assemblyFile: 'ScriptEngine.dll',
     typeName: 'ScriptEngine',
