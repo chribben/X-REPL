@@ -6,4 +6,4 @@ sudo apt-get install -y nodejs
 curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
 sudo apt-get install libunwind8 gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev -y
 source ~/.dnx/dnvm/dnvm upgrade -r coreclr
-
+sudo apt-get install build-essential
